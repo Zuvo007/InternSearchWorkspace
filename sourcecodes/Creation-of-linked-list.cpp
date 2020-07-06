@@ -32,7 +32,7 @@ Node* Insert(int data)
     New_node->next=NULL;
     New_node->next=head;
     head=New_node;
-    return New_node;
+    return head;
     }
 
 
