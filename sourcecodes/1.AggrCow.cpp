@@ -94,9 +94,3 @@ int IsCowPlaced(int mid,int stall_num,int cow_num)
 
 
 
-
-
-
-
-
-
