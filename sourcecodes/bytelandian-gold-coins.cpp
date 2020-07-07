@@ -28,4 +28,3 @@ printf("%lld\n",Exchange(n));
 }
 return 0;
 }
-
