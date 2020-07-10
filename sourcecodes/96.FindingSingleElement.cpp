@@ -15,6 +15,8 @@ int main()
     int arr[100],n,result,i;
     cout<<"Enter an odd size of the array :";
     cin>>n;
+    if(n==0 || n<=0) return -1;
+    else{
     cout<<"Enter the array elenents :";
     for(i=0;i<n;i++)
     {
@@ -22,5 +24,7 @@ int main()
     }
     result=FindTheSingleOne(arr,n);
     cout<<"The single element is :"<<result;
+    }
+    return -1;
 
 }
