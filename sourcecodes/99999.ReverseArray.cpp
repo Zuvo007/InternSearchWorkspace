@@ -15,9 +15,9 @@ vector<int> Reverse(vector<int> &a,int startidx,int endidx)
 
 int main() {
     vector<int> nums = { 1,2,3,4,5};
-    vector<int> res=Reverse(nums,0,nums.size()-1);
-    for(int i=0;i<res.size();i++)
-        cout<<res[i]<<" ";
+    Reverse(nums,0,nums.size()-1);
+    for(int i=0;i<nums.size();i++)
+        cout<<nums[i]<<" ";
 }
 
 
